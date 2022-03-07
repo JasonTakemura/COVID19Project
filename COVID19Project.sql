@@ -2,12 +2,14 @@
 --Skills Used: Joins, Temp Tables, CTEs, Views, Converting Data Types, Windows Functions
 
 
-SELECT * FROM CovidDeaths
+SELECT * 
+FROM CovidDeaths
 WHERE location LIKE '%states'
 order by 3,4
 
 
-SELECT * FROM CovidVaccinations
+SELECT * 
+FROM CovidVaccinations
 WHERE location LIKE '%states'
 ORDER BY 3,4 
 
